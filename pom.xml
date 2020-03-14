@@ -15,16 +15,17 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-  <reporting>
+  <build>
+	  <finalName>WebApp</finalName>
+<reporting>
 	<plugins>
 		<plugin>
 			<groupId>org.apache.maven.plugins</groupId>
-			<artifactId>maven-surefire-report-plugin</artifactId>
-			<version>3.0.0-M4</version>
+			<artifactId>maven-site-plugin</artifactId>
+			<version>3.7.1</version>
 		</plugin>
 	</plugins>
 </reporting>
-  <build>
-    <finalName>WebApp</finalName>
+
   </build>
 </project>
